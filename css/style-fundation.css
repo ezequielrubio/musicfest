@@ -6,7 +6,7 @@ a {
 }
 
 #cont_info_r {
-	margin-top: 6.7vh;
+	margin-top: 11vh;
 	position: absolute;
 	width: 50%;
 	left: 50%;
@@ -79,7 +79,7 @@ a {
 	text-align: center;
 	margin-top: 0px;
 	font-weight: 600;
-	margin-bottom: 3vh;
+	margin-bottom: 6vh;
 }
 
 .text_info{
@@ -109,7 +109,7 @@ a {
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-top: 2vh;
-	margin-bottom: 1vh;
+	margin-bottom: 4vh;
 }
 
 .buttons_info {
@@ -118,7 +118,7 @@ a {
 	font-size: 1.6vw;
 	font-weight: 600;
 	text-align: center;
-	margin-top: 7vh;
+	margin-top: 10vh;
 	margin-left: 8vw;
 	margin-right: 8vw;
 	margin-bottom: 0px;
@@ -127,6 +127,12 @@ a {
     border: 2px solid #e0a253;
     border-radius: 5px;
 	background-color: #7c64a2;
+	filter: opacity(90%);
+}
+
+.buttons_info:hover {
+	box-shadow: 0px 0px 15px 2px rgba(255,255,255,0.4);
+	filter: opacity(100%);
 }
 
 #info_lup span{
@@ -142,10 +148,10 @@ a {
 	left: 70%;
 	width: 30%;
 	height: 100%;
-	background-image: url("../images/festival.jpg");
+	background-image: url("../images/manuel-lozano.jpg");
 	z-index: 300;
 	background-size: cover;
-	filter: opacity(50%);
+	filter: opacity(30%)
 }
 
 .gradient {

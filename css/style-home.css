@@ -6,11 +6,21 @@ body {
 	padding: 0px;
 	background-color: #000000;
 	overflow: hidden;
+	text-decoration: none;
 }
 
 a {
 	text-decoration: none;
 }
+
+#cont_donate a {
+	color: #e0a253;
+}
+
+#cont_ticket a {
+	color: #54457b;
+}
+
 /* menu */
 
 #cont_home {
@@ -77,6 +87,7 @@ a {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 #cont_social {
