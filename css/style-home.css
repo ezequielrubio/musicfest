@@ -8,13 +8,11 @@ body {
 	overflow: hidden;
 }
 
+:any-link { color: green }
+:any-link:active { color: orange }
 
-#cont_donate span {
-	color: #e0a253 !important;
-}
-
-#cont_ticket a {
-	color: #54457b;
+a {
+	text-decoration: none;
 }
 
 /* menu */
