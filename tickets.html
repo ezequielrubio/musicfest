@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>#Music Fundación Sí</title>
+	<title>#Music Entradas</title>
 	<link href="css/style-home.css" rel="stylesheet" type="text/css">
 	<link href="css/style-menu.css" rel="stylesheet" type="text/css">
-	<link href="css/style-fundation.css" rel="stylesheet" type="text/css">
+	<link href="css/style-tickets.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -13,8 +13,6 @@
 </head>
 
 <body>
-	
-	<!--menu-->
 	
 	<div id="cont_home">
 				
@@ -42,45 +40,57 @@
 			  <div id="cont_text_menu">
 					<a href="info.html"><span class="text_menu">Información</span></a><br><br>
 					<a href="line-up.html"><span class="text_menu">Line-up</span></a><br><br>
-				  	<span class="text_select">Fundacion Sí</span><br><br>
+				  	<a href="fundation.html"><span class="text_menu">Fundacion Sí</span></a><br><br>
 					<a href="donations.html"><span class="text_menu">Donaciones</span></a><br><br>
-					<a href="tickets.html"><span class="text_menu">Entradas</span></a><br><br>
+					<span class="text_select">Entradas</span><br><br>
 					<a href="https://fundacionsi.org.ar/" target="_blank"><img id="fundacion-si" src="images/fundacion-si.png" width="75" height="75" alt=""/></a></div>
 			</div>
 		</div>
 		
 	</div>
 	
-	<!--info-->
-	
-	<div id="img_info">
-		<div class="gradient"></div>
-	</div>
+	<!--info derecha-->
 
 	<div id="cont_info_r">
 		
 		<div id="cont_text_r">
 		
-		
+	
 						
-		<p class="sub_info">SIN TRABAJADORES, TODOS VOLUNTARIOS</p>
-			<p class="text_info">El trabajo es realizado por un <span>gran número de voluntarios</span> mediante un abordaje integral que incluye la <span>asistencia</span>, la <span>contención</span>, la <span>capacitación</span>, la <span>educación</span> y la <span>cultura del trabajo</span>.</p>
-			<p class="text_info">En Fundación Sí creen en el trabajo de igual a igual, en el <span>trabajo en equipo</span>, en la heterogeneidad de los grupos, en la complementación y en las nuevas generaciones.</p>
+		<p class="sub_info">COMPLETÁ LOS DATOS</p>
+			<input type="text" class="form" placeholder="Nombre">
+			<input type="text" class="form" placeholder="Apellido"><br><br><br>
+			<input type="text" class="form" placeholder="E-mail">
+			<input type="text" class="form" placeholder="Confirmar E-mail"><br><br><br>
+			<span class="form" style="color: #FFFFFF">Cantidad de Entradas:</span>
+			<select name="select" class="form" style="color: #000000">
+				<option value="value1" selected>1</option>
+				<option value="value2">2</option>
+  				<option value="value3">3</option>
+				<option value="value4">4</option>
+			</select>
+			<span id="button_form">Enviar</span>
+			
+			
+
+
+		
 		
 		</div>
 			
 	</div>
 	
-	<!--reproductor-->
+	<!--info izquierda-->
+	
 	
 	<div id="cont_info_l">
 		<div id="cont_text_l">
-			<p id="title_info">Fundación Sí</p>
-			<p class="sub_info">¿DE QUÉ SE TRATA?</p>
-			<p class="text_info">Es una ONG que tiene como principal objetivo <span>promover la inclusión social</span> de los <span>sectores más vulnerables</span> de la Argentina.</p>
-			<p class="text_info">Quienes forman Fundación Sí están convencidos de que <span>transformar la realidad es posible</span> y, para lograrlo, se necesita el compromiso de todos.</p>
-			
-			<a href="https://fundacionsi.org.ar/" target="_blank"><p class="buttons_info">Conocé Más</p></a>
+			<p id="title_info">Entradas</p>
+			<p class="sub_info">COMPRÁ TU ENTRADA</p>
+			<p class="text_info">Llená el siguiente formulario y reservá tu entrada. ¡No te lo pierdas!</p>
+			<p class="text_info">Por cuestiones del protocolo ante el COVID-19, sólo está permitido comprar hasta 4 entradas por usuario.</p>
+			<p class="text_info">Una vez enviados los datos, nos estaremos contactando vía e-mail para explicarte los próximos pasos a seguir.</p>
+			<p class="text_info" style="text-align: right; color: #7c64a2; font-size: 1.6vw; font-weight: 700">¡Te esperamos!</p>
 			
 		</div>
 	</div>

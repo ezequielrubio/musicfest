@@ -128,6 +128,7 @@ a {
     border-radius: 5px;
 	background-color: #7c64a2;
 	filter: opacity(90%);
+	transition: all 0.2s ease;
 }
 
 .buttons_info:hover {
