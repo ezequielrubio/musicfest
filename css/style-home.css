@@ -6,15 +6,11 @@ body {
 	padding: 0px;
 	background-color: #000000;
 	overflow: hidden;
-	text-decoration: none;
 }
 
-a {
-	text-decoration: none;
-}
 
 #cont_donate a {
-	color: #e0a253;
+	color: #e0a253 !important;
 }
 
 #cont_ticket a {
