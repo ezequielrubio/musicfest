@@ -8,9 +8,6 @@ body {
 	overflow: hidden;
 }
 
-:any-link { color: green }
-:any-link:active { color: orange }
-
 a {
 	text-decoration: none;
 }
