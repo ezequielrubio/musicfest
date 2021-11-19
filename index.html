@@ -6,6 +6,7 @@
 	<link href="css/style-home.css" rel="stylesheet" type="text/css">
 	<link href="css/style-slideshow.css" rel="stylesheet" type="text/css">
 	<link href="css/style-menu.css" rel="stylesheet" type="text/css">
+	<link href="css/style-modal.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,11 +15,12 @@
 
 <body>
 	
+	
+	
 	<!--menu-->
 	
 	<div id="cont_home">
 				
-		<div id="user"><img src="images/user.png" height="54" width="54" alt=""/></div>
 		<div id="logo"><img src="images/logo.png" width="140" height="140" alt=""/></div>
 		<div id="cont_ticket">
 			<a href="tickets.html" style="color: #54457b"><span class="text" style="color: #54457b">Adquirí tu entrada</span></a>
@@ -33,6 +35,27 @@
 			<div id="red_youtube"><a href="https://www.youtube.com/user/sifundacion" target="_blank"><img src="images/youtube.png" height="36" width="36" alt=""/></a></div>
 		</div>
 		
+		<!--modal-->	
+		
+		<a href="#cont_menu_modal"><img id="open_menu_modal" src="images/user.png" height="54" width="54" alt=""/></a>
+		<div id="cont_menu_modal">
+			<a href="#menu_modal"><img id="x_modal" src="images/x.png" width="18" height="18" alt=""/></a>
+			<div id="menu_modal">
+			 	<div id="cont_form_modal">
+					<form>
+						<div class="user_box">
+							<input type="text" placeholder="Usuario">
+						</div>
+						<div class="user_box">
+							<input type="password" placeholder="Contraseña" style="margin-bottom: 22px;">
+						</div>
+						<a href="index.html" class="login">Ingresá</a><a href="index.html" class="login" style="background-color: #FFFFFF; color: #54457b; border: 2px solid #54457b">Registrate</a>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		
 		<!--hamburguesa-->
 
 		<a href="#cont_menu"><img id="open_menu" src="images/menu.png" height="24" width="24" alt=""/></a>
@@ -41,7 +64,7 @@
 			<div id="menu">
 			  <div id="cont_text_menu">
 					<a href="info.html"><span class="text_menu">Información</span></a><br><br>
-					<a href="line-up.html" target="_self"><span class="text_menu">Line-up</span></a><br><br>
+					<a href="line-up.html"><span class="text_menu">Line-up</span></a><br><br>
 				  	<a href="fundation.html"><span class="text_menu">Fundacion Sí</span></a><br><br>
 					<a href="donations.html"><span class="text_menu">Donaciones</span></a><br><br>
 					<a href="tickets.html"><span class="text_menu">Entradas</span></a><br><br>
